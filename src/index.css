@@ -1,0 +1,57 @@
+
+
+body{
+    margin: 0px;
+    background-color: #282d35;
+    color: white;
+   
+}
+nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    
+}
+header{
+    height: 90px;
+    background-color:#21222A ;
+    padding-left: 30px;
+}
+nav > img {
+    width: 40px;
+    
+    
+
+}
+
+main{
+    padding: 60px 30px;
+    background-image: url(./image/react.svg);
+    background-repeat: no-repeat;
+    background-position-x:103%;
+       background-position-y:bottom;
+    background-size: 100px;
+   
+    
+}
+main > h1 {   
+    margin: 0px;
+}
+.fan-facts{
+    margin-top: 46px;
+    max-width: 400px;
+}
+.fan-facts > li {
+    margin-block: 10px;
+    line-height: 19px;
+   
+}
+.fan-facts>li::marker{
+    color: green;
+    font-size: 2rem;
+
+}
+/* .backgroun-image{
+    background-color: ;
+} */
+ 
